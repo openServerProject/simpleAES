@@ -1,6 +1,9 @@
 # simpleAES
 Simple AES encryption & decryption library for JavaScript and Python.
 
+## Important
+The JavaScript version of this library uses the minified version of `crypto-js`, is why the JavaScript version is very large compared to the Python version.
+
 ## Usage
 ### Python 3
 ```python
