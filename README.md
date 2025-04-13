@@ -1,8 +1,8 @@
 # simpleAES
-A simple AES encryption & decryption library using Python's Cryptography library.  
-It supports AES-CTR for compatibility with JavaScript.
+Simple AES encryption & decryption library for JavaScript and Python.
 
 ## Usage
+### Python 3
 ```python
 import simple_aes as aes
 
@@ -16,4 +16,18 @@ print(encrypted_text)
 # decrypt text
 decrypted_text = aes.decrypt(encrypted_text, password)
 print(decrypted_text)
+```
+### JavaScript
+Script tag: `<script src=""></script>`
+```javascript
+const password = 'p@ssw0rd';
+const text = 'Secret Text :D';
+
+// encrypt text
+const encrypted_text = encrypt(text, password);
+console.log(encrypted_text);
+
+// decrypt text
+const decrypted_text = decrypt(encrypted_text, password);
+console.log(decrypted_text);
 ```
