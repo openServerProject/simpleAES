@@ -1,4 +1,4 @@
-# simpleFernet
+# simpleAES
 A simple AES encryption & decryption library using Python's Cryptography library.  
 It supports AES-CTR for compatibility with JavaScript.
 
