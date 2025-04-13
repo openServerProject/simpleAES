@@ -21,7 +21,7 @@ decrypted_text = aes.decrypt(encrypted_text, password)
 print(decrypted_text)
 ```
 ### JavaScript
-Script tag: `<script src=""></script>`
+Script tag: `<script src="https://raw.githubusercontent.com/openServerProject/simpleAES/refs/heads/main/simple_aes.js"></script>`
 ```javascript
 const password = 'p@ssw0rd';
 const text = 'Secret Text :D';
