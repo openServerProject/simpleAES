@@ -1,5 +1,5 @@
 # simpleFernet
-A simple Fernet encryption library.
+A simple Fernet encryption & decryption library using Python's Cryptography library.
 
 ## Usage
 ```python
