@@ -42,17 +42,4 @@
 
             return decrypted.toString(CryptoJS.enc.Utf8);
         }
-
-        async function example() {
-            const password = 'mysecretpassword';
-            const textToEncrypt = 'This is some sensitive information.';
-
-            const encrypted = encrypt(textToEncrypt, password);
-            console.log('Encrypted:', encrypted);
-
-            const decrypted = decrypt(encrypted, password);
-            console.log('Decrypted:', decrypted);
-        }
-
-        example();
     </script>
